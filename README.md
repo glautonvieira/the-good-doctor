@@ -73,6 +73,7 @@ The result of the collected data is saved in a `.csv` file at the end of the run
   - [ ]  Attach screenshots into report
   - [ ]  Improve common helpers and methods
   - [ ]  Extract settings to an `.yml` or `env` file
+  - [ ]  Improve `.csv` sorting images 
 
 ### Contributing
 
