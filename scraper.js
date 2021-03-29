@@ -1,8 +1,13 @@
 /* eslint-disable no-undef */
-const puppeteer = require('puppeteer');
+// const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra')
 const fs = require('fs');
 const { PAGE_URL, BASE_URL } = require('./config');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+puppeteer.use(StealthPlugin());
+const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker')
+puppeteer.use(AdblockerPlugin({ blockTrackers: true }))
 
 const scrape = async () => {
   const browser = await puppeteer.launch({
