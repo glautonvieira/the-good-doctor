@@ -1,4 +1,5 @@
-# The Good Doctor - Web scraper to get medical news using puppeteer
+# The Good Doctor 
+### Web scraper to get medical news using puppeteer
 
 The aim of this project is to gather information regarding [health news](https://apnews.com/hub/health), centralizing and organizing this data quickly and simply.
 
