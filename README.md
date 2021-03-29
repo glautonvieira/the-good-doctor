@@ -47,6 +47,9 @@ This type of script can assist in verifying the functioning of links, and in val
 
 **Execution:**
 
+![scraper](https://user-images.githubusercontent.com/11621414/112860011-cf6eda80-9089-11eb-96ad-51d63e7e1b03.gif)
+
+
 To run the ***scraper***, use:
 
 ``
