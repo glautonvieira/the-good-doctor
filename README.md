@@ -46,7 +46,7 @@ This type of script can assist in verifying the functioning of links, and in val
 └── yarn.lock
 ```
 
-**Execution:**
+**Execution**
 
 ![scraper](https://user-images.githubusercontent.com/11621414/112860011-cf6eda80-9089-11eb-96ad-51d63e7e1b03.gif)
 
@@ -67,7 +67,7 @@ The result of the collected data is saved in a `.csv` file at the end of the run
 
 ![CSV Report](docs/csv_file.png)
 
-### To do:
+### To do
 
   - [ ]  Attach screenshots into report
   - [ ]  Improve common helpers and methods
