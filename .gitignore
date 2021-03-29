@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+/node_modules/
+
+# Compiled binary
+/test/output-chromium
+/.local-chromium/
+.DS_Store
+.vscode
+package-lock.json
+/lib
+temp/
+yarn.lock
