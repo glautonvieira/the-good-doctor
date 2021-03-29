@@ -58,11 +58,11 @@ $ node scraper.js
 
 ### Reports
 
-You can consult the logs during the exception, generated in a `.txt` file:
+You can consult the ***logs*** during the exception, generated in a `.txt` file:
 
 ![Execution Logs](docs/logs.png)
 
-The result of the collected data is saved in a `.csv` file at the end of the run:
+The ***result of the collected data*** is saved in a `.csv` file at the end of the run:
 
 ![CSV Report](docs/csv_file.png)
 
