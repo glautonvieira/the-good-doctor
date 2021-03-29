@@ -1,4 +1,4 @@
-# The Good Doctor 
+# The Good Doctor
 ### Web scraper to get medical news using puppeteer
 
 The aim of this project is to gather information regarding [health news](https://apnews.com/hub/health), centralizing and organizing this data quickly and simply.
@@ -64,7 +64,7 @@ You can consult the ***logs*** during the exception, generated in a `.txt` file:
 
 The ***result of the collected data*** is saved in a `.csv` file at the end of the run:
 
-![CSV Report](docs/csv_file.png)
+![CSV Report](docs/report_csv_example.png)
 
 ---
 
@@ -73,7 +73,7 @@ The ***result of the collected data*** is saved in a `.csv` file at the end of t
   - [ ]  Attach screenshots into report
   - [ ]  Improve common helpers and methods
   - [ ]  Extract settings to an `.yml` or `env` file
-  - [ ]  Improve `.csv` sorting images 
+  - [ ]  Improve `.csv` sorting images
 
 ### Contributing
 
