@@ -1,7 +1,5 @@
 # The Good Doctor - Web scraper to get medical news using puppeteer
 
-_The quality assurance comes from testing, which makes it possible to check for the presence of non-conformities._
-
 The aim of this project is to gather information regarding [health news](https://apnews.com/hub/health), centralizing and organizing this data quickly and simply.
 
 ### Tools
@@ -49,7 +47,7 @@ This type of script can assist in verifying the functioning of links, and in val
 
 **Execution:**
 
-To run the scraper, use:
+To run the ***scraper***, use:
 
 ``
 $ node scraper.js
@@ -57,11 +55,11 @@ $ node scraper.js
 
 ### Reports
 
-You can consult the logs during the exception, generated in a .txt file:
+You can consult the logs during the exception, generated in a `.txt` file:
 
 ![Execution Logs](docs/logs.png)
 
-The result of the collected data is saved in a .csv file at the end of the run:
+The result of the collected data is saved in a `.csv` file at the end of the run:
 
 ![CSV Report](docs/csv_file.png)
 
